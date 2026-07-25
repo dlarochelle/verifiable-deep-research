@@ -1,0 +1,11 @@
+.env
+keys
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+runs/
+papers/**/*.pdf
+papers/.private/
+keys

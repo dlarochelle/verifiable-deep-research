@@ -1,0 +1,18 @@
+[project]
+name = "verifiable-deep-research"
+version = "0.1.0"
+description = "Research agent that grades its own groundedness. You.com Agentic Hackathon 2026."
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "anthropic>=0.40",
+    "python-dotenv>=1.0",
+    "openai>=1.30",
+]
+
+[tool.uv]
+# Plain script layout (app/, eval/), nothing to build or install.
+package = false
